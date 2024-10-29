@@ -1,7 +1,3 @@
-provider "aws" {
-  region = "us-east-1"
-}
-
 data "aws_lambda_function" "fastfood_lambda_authorizer" {
   function_name = "fastfood_lambda_authorizer"
 }
